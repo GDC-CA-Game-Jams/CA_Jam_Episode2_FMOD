@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{92a7076e-00dd-4e81-9163-07b9438367d2}">
+		<property name="assetPath">
+			<value>Scream1.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>6.2229478458049883</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f28a448e-210f-4343-bfe1-39a1756b5fe2}</destination>
+		</relationship>
+	</object>
+</objects>
