@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{5b3778fb-b1ae-46e0-8044-77a9dab07862}">
+		<property name="assetPath">
+			<value>SFX/SFX_Announce_End-001.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.74589583333333331</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f28a448e-210f-4343-bfe1-39a1756b5fe2}</destination>
+		</relationship>
+	</object>
+</objects>
