@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerReturn" id="{ee3525b2-6965-4d16-b238-4c6b395095a0}">
+		<property name="name">
+			<value>Delay-Large</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{05a152ff-0691-41a4-a840-ec21797a100d}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{b1f8879c-8469-491d-879c-49272fb23b3c}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{caefc61c-e65e-4867-af8f-5e1d0e799183}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{05a152ff-0691-41a4-a840-ec21797a100d}">
+		<relationship name="effects">
+			<destination>{29373dd7-d443-4e24-8086-c2ea9caaa7d1}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{b1f8879c-8469-491d-879c-49272fb23b3c}" />
+	<object class="MixerBusFader" id="{29373dd7-d443-4e24-8086-c2ea9caaa7d1}" />
+</objects>
