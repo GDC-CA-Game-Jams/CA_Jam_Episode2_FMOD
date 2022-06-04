@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{743f8396-3011-43ee-84cd-835566981f52}</destination>
 		</relationship>
+		<relationship name="parameters">
+			<destination>{c0d8b390-03f6-4008-8c54-1c03265836c2}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{66e3f240-44ad-47dd-82f2-bb5912c73ff1}">
 		<relationship name="masterBus">
@@ -50,7 +53,7 @@
 			<destination>{3101955d-98f7-471a-8efd-7779f8b122ba}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{252ad4a8-0338-4c8c-b21b-1e6f9a403195}</destination>
+			<destination>{3640ef09-60db-49bc-916a-68c90e64f172}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{6843512f-9d3b-4bbf-afcc-a2a69fbf022b}">
@@ -73,6 +76,11 @@
 		</relationship>
 		<relationship name="markers">
 			<destination>{d34969b3-ec02-437c-838f-fdcf4e4e758d}</destination>
+		</relationship>
+	</object>
+	<object class="ParameterProxy" id="{c0d8b390-03f6-4008-8c54-1c03265836c2}">
+		<relationship name="preset">
+			<destination>{17974c0b-17a5-4e3f-bf0c-451c774b946b}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{d89f647f-d249-4b23-9158-096566b12f8e}">
