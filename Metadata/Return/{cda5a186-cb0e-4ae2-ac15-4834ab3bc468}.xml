@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerReturn" id="{cda5a186-cb0e-4ae2-ac15-4834ab3bc468}">
+		<property name="note">
+			<value>For hallway, back rooms</value>
+		</property>
 		<property name="volume">
 			<value>-80</value>
 		</property>
 		<property name="name">
-			<value>Reverb-BackRoom</value>
+			<value>Reverb-Back</value>
 		</property>
 		<relationship name="effectChain">
 			<destination>{e62edc66-6afd-47a2-95a4-e2b74453eadd}</destination>

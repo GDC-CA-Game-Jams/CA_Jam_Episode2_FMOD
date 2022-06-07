@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{060e22bd-c6b0-40d5-90c2-14535d064ad6}">
+		<property name="assetPath">
+			<value>SFX/Objects/as_obj_DeskEmpty.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.1748749999999999</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f28a448e-210f-4343-bfe1-39a1756b5fe2}</destination>
+		</relationship>
+	</object>
+</objects>
