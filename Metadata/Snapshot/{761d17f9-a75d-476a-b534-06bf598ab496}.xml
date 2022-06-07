@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Snapshot" id="{761d17f9-a75d-476a-b534-06bf598ab496}">
+		<property name="color">
+			<value>Blue</value>
+		</property>
 		<property name="name">
 			<value>Back Room</value>
 		</property>
@@ -34,7 +37,14 @@
 			<destination>{ca72a313-b2b4-4021-8e0c-49b886b1a1d2}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{08496b5a-6340-4e43-97b7-f8e1ed9d415e}" />
+	<object class="EventAutomatableProperties" id="{08496b5a-6340-4e43-97b7-f8e1ed9d415e}">
+		<property name="maxVoices">
+			<value>62</value>
+		</property>
+		<relationship name="modulators">
+			<destination>{3b6530da-fd2c-4ffa-a601-d8adb324591c}</destination>
+		</relationship>
+	</object>
 	<object class="MarkerTrack" id="{a2e9313a-5a4d-4fd9-b534-1e92468352c0}" />
 	<object class="Timeline" id="{458b08de-a86c-4fd7-b4e6-d2e1a4ff263f}" />
 	<object class="SnapshotMasterTrack" id="{92cebd8d-5ae9-461f-a138-0b9650c55a3f}" />
@@ -117,5 +127,22 @@
 		<relationship name="mixerStrip">
 			<destination>{5df52459-7407-4ef2-aeaf-7d010df69f4a}</destination>
 		</relationship>
+	</object>
+	<object class="ADSRModulator" id="{3b6530da-fd2c-4ffa-a601-d8adb324591c}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>snapshotIntensity</value>
+		</property>
+		<property name="attackTime">
+			<value>500</value>
+		</property>
+		<property name="peakValue">
+			<value>100</value>
+		</property>
+		<property name="sustainValue">
+			<value>100</value>
+		</property>
+		<property name="releaseTime">
+			<value>500</value>
+		</property>
 	</object>
 </objects>

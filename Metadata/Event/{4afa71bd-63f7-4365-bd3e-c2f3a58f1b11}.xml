@@ -5,7 +5,7 @@
 			<value>Announcer_Master_Event</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{1a08ecce-69e9-4692-ad7f-24d2b7b7de56}</destination>
@@ -59,7 +59,17 @@
 			<destination>{b7837172-0f69-4899-a00e-ac6b8f02e326}</destination>
 		</relationship>
 	</object>
-	<object class="EventAutomatableProperties" id="{11751efc-f21f-4ee2-9f87-34460986543a}" />
+	<object class="EventAutomatableProperties" id="{11751efc-f21f-4ee2-9f87-34460986543a}">
+		<property name="maxVoices">
+			<value>1</value>
+		</property>
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>10000</value>
+		</property>
+	</object>
 	<object class="MarkerTrack" id="{1935a8ba-72e9-497a-9aba-9e9ef08a4d29}" />
 	<object class="GroupTrack" id="{1ed4fc1a-1bad-41f7-bbaf-d7bdd799b4eb}">
 		<relationship name="mixerGroup">
@@ -117,7 +127,7 @@
 	<object class="MixerBusEffectChain" id="{fc6c17fc-3928-4ed7-9fd7-64c6df3fee8b}">
 		<relationship name="effects">
 			<destination>{5d3b7936-e79a-47bc-bf5f-30bc0030460a}</destination>
-			<destination>{9c52b043-83c8-41d0-9e2d-61e1ee2391b2}</destination>
+			<destination>{e8ff1f45-4ad4-4589-b2d9-434f0b393c72}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{7b73aa05-2c78-4f5d-a606-0a36aa07a0fc}" />
@@ -130,6 +140,9 @@
 		</relationship>
 	</object>
 	<object class="ProgrammerSound" id="{f8b9c97a-4cc2-4370-9658-7d11b5bf1337}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<relationship name="placeholder">
 			<destination>{41d6ebc6-d95d-4eaa-bbce-88c09f88426a}</destination>
 		</relationship>
@@ -153,7 +166,17 @@
 	</object>
 	<object class="MixerBusPanner" id="{9e6cff94-92a3-4e9c-b0bd-acf6f81b01c7}" />
 	<object class="MixerBusFader" id="{5d3b7936-e79a-47bc-bf5f-30bc0030460a}" />
-	<object class="SpatialiserEffect" id="{9c52b043-83c8-41d0-9e2d-61e1ee2391b2}" />
+	<object class="ObjectSpatialiserEffect" id="{e8ff1f45-4ad4-4589-b2d9-434f0b393c72}">
+		<property name="distanceRolloffType">
+			<value>4</value>
+		</property>
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>10000</value>
+		</property>
+	</object>
 	<object class="SingleSound" id="{c3935711-dc3e-4d5d-8759-8517a2a92ba6}">
 		<relationship name="audioFile">
 			<destination>{99826778-9e93-4504-9cbd-6f468565572a}</destination>

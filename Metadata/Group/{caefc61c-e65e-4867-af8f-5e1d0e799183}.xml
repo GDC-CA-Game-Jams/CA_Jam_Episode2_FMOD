@@ -17,8 +17,23 @@
 	<object class="MixerBusEffectChain" id="{ffbb0e35-d1ed-4bae-a74a-46ea63491e67}">
 		<relationship name="effects">
 			<destination>{d8b94a36-89c4-4e8c-8e73-3ff7b3872092}</destination>
+			<destination>{9055d5e7-1c96-4468-b234-967c3c550e8e}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{1a741747-90d3-41e7-9601-ee9d6a883ddf}" />
 	<object class="MixerBusFader" id="{d8b94a36-89c4-4e8c-8e73-3ff7b3872092}" />
+	<object class="CompressorEffect" id="{9055d5e7-1c96-4468-b234-967c3c550e8e}">
+		<property name="threshold">
+			<value>-15.5</value>
+		</property>
+		<property name="ratio">
+			<value>1.75</value>
+		</property>
+		<property name="releaseTime">
+			<value>880</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{2620a9fb-7cfd-4140-9222-5090859859d6}</destination>
+		</relationship>
+	</object>
 </objects>

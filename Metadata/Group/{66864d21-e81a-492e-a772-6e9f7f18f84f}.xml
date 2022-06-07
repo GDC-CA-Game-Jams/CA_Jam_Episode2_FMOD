@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="MixerGroup" id="{66864d21-e81a-492e-a772-6e9f7f18f84f}">
+		<property name="name">
+			<value>SpaceHum</value>
+		</property>
+		<relationship name="effectChain">
+			<destination>{a19a1e18-b5a3-4a40-ad38-e029b1710ebd}</destination>
+		</relationship>
+		<relationship name="panner">
+			<destination>{fd3005f7-f34c-438f-bd70-a109ec00b66d}</destination>
+		</relationship>
+		<relationship name="output">
+			<destination>{3640ef09-60db-49bc-916a-68c90e64f172}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusEffectChain" id="{a19a1e18-b5a3-4a40-ad38-e029b1710ebd}">
+		<relationship name="effects">
+			<destination>{84256674-bd56-43c1-86c7-6427649c1091}</destination>
+			<destination>{ae23daa5-e800-41f9-bcc1-88431c261628}</destination>
+		</relationship>
+	</object>
+	<object class="MixerBusPanner" id="{fd3005f7-f34c-438f-bd70-a109ec00b66d}" />
+	<object class="Sidechain" id="{84256674-bd56-43c1-86c7-6427649c1091}" />
+	<object class="MixerBusFader" id="{ae23daa5-e800-41f9-bcc1-88431c261628}" />
+</objects>

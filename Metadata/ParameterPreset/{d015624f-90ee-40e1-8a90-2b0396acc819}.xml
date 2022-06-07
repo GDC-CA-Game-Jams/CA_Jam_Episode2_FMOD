@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{d015624f-90ee-40e1-8a90-2b0396acc819}">
+		<property name="name">
+			<value>Condition</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b0fc354a-8576-403b-8574-f07cb2316b99}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{f7e0b2dd-0ff6-429a-b73e-5d2a855f3a70}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{f7e0b2dd-0ff6-429a-b73e-5d2a855f3a70}">
+		<property name="parameterType">
+			<value>2</value>
+		</property>
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="enumerationLabels">
+			<value>Success</value>
+			<value>Fail</value>
+			<value>Extra</value>
+		</property>
+		<property name="isHeld">
+			<value>true</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

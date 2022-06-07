@@ -53,7 +53,7 @@
 			<destination>{3101955d-98f7-471a-8efd-7779f8b122ba}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{3640ef09-60db-49bc-916a-68c90e64f172}</destination>
+			<destination>{66864d21-e81a-492e-a772-6e9f7f18f84f}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{6843512f-9d3b-4bbf-afcc-a2a69fbf022b}">
@@ -169,6 +169,7 @@
 		<relationship name="effects">
 			<destination>{dc49691a-6a5b-4c5c-b4fa-1b64e289aff6}</destination>
 			<destination>{9fa72689-b879-4cf8-b01f-3ed9469b9acb}</destination>
+			<destination>{85bccd19-c2b1-4540-b5a9-6119ec36bbd1}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{99b49ab7-ed0f-4dcf-bc38-59857d7cba97}" />
@@ -192,6 +193,16 @@
 		<property name="minimumDistance">
 			<value>4</value>
 		</property>
+		<property name="extentMode">
+			<value>1</value>
+		</property>
+		<property name="soundSize">
+			<value>3.79999995</value>
+		</property>
+		<property name="minimumExtent">
+			<value>118</value>
+		</property>
 	</object>
+	<object class="Sidechain" id="{85bccd19-c2b1-4540-b5a9-6119ec36bbd1}" />
 	<object class="MixerBusFader" id="{8c4a69bb-1e16-4b3f-9b34-798c4f903ef4}" />
 </objects>

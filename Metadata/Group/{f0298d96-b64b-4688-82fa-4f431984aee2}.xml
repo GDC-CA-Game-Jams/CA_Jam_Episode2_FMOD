@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="MixerGroup" id="{f0298d96-b64b-4688-82fa-4f431984aee2}">
+		<property name="volume">
+			<value>-7.5</value>
+		</property>
 		<property name="name">
 			<value>MusicGroup</value>
 		</property>
@@ -17,8 +20,49 @@
 	<object class="MixerBusEffectChain" id="{f4218e41-387b-41d8-94c7-32d6d5a8e11c}">
 		<relationship name="effects">
 			<destination>{a70a0dbf-287d-4b3e-9150-e9d7bf458205}</destination>
+			<destination>{e7e8ee17-b36a-4cca-991e-3bb0f0983476}</destination>
+			<destination>{fb3964c2-2096-43af-aa51-6286842f232a}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{8712b2c5-4d50-449f-8d60-a735300e6aa5}" />
 	<object class="MixerBusFader" id="{a70a0dbf-287d-4b3e-9150-e9d7bf458205}" />
+	<object class="CompressorEffect" id="{e7e8ee17-b36a-4cca-991e-3bb0f0983476}">
+		<property name="threshold">
+			<value>-15.5</value>
+		</property>
+		<property name="ratio">
+			<value>1.75</value>
+		</property>
+		<property name="releaseTime">
+			<value>880</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{2620a9fb-7cfd-4140-9222-5090859859d6}</destination>
+		</relationship>
+	</object>
+	<object class="ThreeEQEffect" id="{fb3964c2-2096-43af-aa51-6286842f232a}">
+		<relationship name="modulators">
+			<destination>{11a70390-afca-453b-b102-e7fdece9783e}</destination>
+		</relationship>
+	</object>
+	<object class="SidechainModulator" id="{11a70390-afca-453b-b102-e7fdece9783e}">
+		<property name="nameOfPropertyBeingModulated">
+			<value>lowGain</value>
+		</property>
+		<property name="amount">
+			<value>25</value>
+		</property>
+		<property name="releaseTime">
+			<value>500</value>
+		</property>
+		<property name="minimumThreshold">
+			<value>-24.5</value>
+		</property>
+		<property name="maximumThreshold">
+			<value>0</value>
+		</property>
+		<relationship name="sidechains">
+			<destination>{84256674-bd56-43c1-86c7-6427649c1091}</destination>
+		</relationship>
+	</object>
 </objects>
