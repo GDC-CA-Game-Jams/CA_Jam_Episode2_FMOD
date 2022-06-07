@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{2ec7ce69-80e1-4851-8c87-281633568531}">
+	<object class="AudioFile" id="{447ca0bd-9ac8-4c6a-a1dd-3e79ebd62382}">
 		<property name="assetPath">
-			<value>SFX/Objects/as_obj_toy-broken.wav</value>
+			<value>SFX/Objects/as_obj_so_toy-fail.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>1.2330625</value>
+			<value>0.82118749999999996</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{f28a448e-210f-4343-bfe1-39a1756b5fe2}</destination>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="ParameterPreset" id="{96a26c8d-0e25-49c5-80ff-6175b6e0f304}">
+		<property name="name">
+			<value>Toy Condition</value>
+		</property>
+		<relationship name="folder">
+			<destination>{b0fc354a-8576-403b-8574-f07cb2316b99}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{474723ad-75ae-404f-b6be-9d3ec29c4094}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{474723ad-75ae-404f-b6be-9d3ec29c4094}">
+		<property name="maximum">
+			<value>3</value>
+		</property>
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>

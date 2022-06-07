@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{a417f9cf-7162-4e18-92af-89285c3e1207}">
+	<object class="AudioFile" id="{cfc44b6b-b52b-4973-bfdd-04cee87de490}">
 		<property name="assetPath">
-			<value>SFX/Objects/as_obj_crafts-failure.wav</value>
+			<value>SFX/Objects/as_obj_so_poster-read.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.82118749999999996</value>
+			<value>0.84795833333333337</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{f28a448e-210f-4343-bfe1-39a1756b5fe2}</destination>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
-	<object class="AudioFile" id="{0e93b3c8-713b-4628-892f-b0f01032fcc1}">
+	<object class="AudioFile" id="{a2986838-ce81-4e55-a3aa-5c7838d8dc78}">
 		<property name="assetPath">
-			<value>SFX/Objects/as_obj_toy-failure.wav</value>
+			<value>SFX/Objects/as_obj_so_vend-smash.wav</value>
 		</property>
 		<property name="frequencyInKHz">
 			<value>48</value>
@@ -11,7 +11,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>0.44364583333333335</value>
+			<value>2.0636041666666665</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{f28a448e-210f-4343-bfe1-39a1756b5fe2}</destination>
