@@ -38,6 +38,9 @@
 		<relationship name="parameters">
 			<destination>{f9e3d85e-bb99-41dc-ad88-8810a20672db}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{03d7dfc5-ee51-4fa8-9c6f-2504883a4c5a}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{00cafe40-84f7-4c0d-84fc-f5d3e8c6acf7}">
 		<relationship name="masterBus">
@@ -65,7 +68,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximumDistance">
-			<value>6.20000029</value>
+			<value>10000</value>
 		</property>
 	</object>
 	<object class="MarkerTrack" id="{601f53e2-4161-44a5-82f3-8c13df9fe856}" />
@@ -83,6 +86,9 @@
 	<object class="Timeline" id="{a5f97996-6b8a-4008-a592-889c7f8f2496}">
 		<relationship name="modules">
 			<destination>{ea9137b2-5e1b-4aef-91fb-0e63be744dc5}</destination>
+		</relationship>
+		<relationship name="markers">
+			<destination>{ef654970-be3b-4986-9640-ed1492b727ba}</destination>
 		</relationship>
 	</object>
 	<object class="ParameterProxy" id="{f9e3d85e-bb99-41dc-ad88-8810a20672db}">
@@ -117,7 +123,13 @@
 			<value>true</value>
 		</property>
 		<property name="length">
-			<value>0.10000000000000001</value>
+			<value>0.17999999999999999</value>
+		</property>
+		<property name="delayType">
+			<value>0</value>
+		</property>
+		<property name="quantizationInterval">
+			<value>10</value>
 		</property>
 		<property name="playlistMode">
 			<value>1</value>
@@ -158,6 +170,20 @@
 		</relationship>
 		<relationship name="output">
 			<destination>{dab2c142-a78a-4890-96c3-fc6633ad4624}</destination>
+		</relationship>
+	</object>
+	<object class="LoopRegion" id="{ef654970-be3b-4986-9640-ed1492b727ba}">
+		<property name="position">
+			<value>0</value>
+		</property>
+		<property name="length">
+			<value>0.21199999999999999</value>
+		</property>
+		<relationship name="timeline">
+			<destination>{a5f97996-6b8a-4008-a592-889c7f8f2496}</destination>
+		</relationship>
+		<relationship name="markerTrack">
+			<destination>{601f53e2-4161-44a5-82f3-8c13df9fe856}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusEffectChain" id="{6a46550b-5e44-4a1a-969b-024085281ff1}">
@@ -299,7 +325,7 @@
 	<object class="MixerBusPanner" id="{ac31c4a5-6f44-4e1f-82d8-f27197b23c37}" />
 	<object class="MixerSend" id="{af6b23f3-f8c1-4fcb-92f3-a5a06c70ed86}">
 		<property name="level">
-			<value>0</value>
+			<value>-14.5</value>
 		</property>
 		<property name="inputFormat">
 			<value>1</value>
@@ -310,7 +336,7 @@
 	</object>
 	<object class="MixerSend" id="{1c50d50c-ec57-46f0-b972-373053bcca29}">
 		<property name="level">
-			<value>0</value>
+			<value>-4</value>
 		</property>
 		<property name="inputFormat">
 			<value>1</value>
@@ -321,7 +347,7 @@
 	</object>
 	<object class="MixerSend" id="{6da9cea0-1009-4e61-abab-00daac877ab3}">
 		<property name="level">
-			<value>0</value>
+			<value>-10</value>
 		</property>
 		<property name="inputFormat">
 			<value>1</value>
@@ -339,7 +365,7 @@
 			<value>0</value>
 		</property>
 		<property name="maximumDistance">
-			<value>6.20000029</value>
+			<value>10000</value>
 		</property>
 	</object>
 	<object class="AutomationCurve" id="{3fcbe70e-cd77-4d6e-bbb8-6f435670dbb6}">

@@ -5,7 +5,7 @@
 			<value>Blue</value>
 		</property>
 		<property name="name">
-			<value>Back Room</value>
+			<value>BackRoom</value>
 		</property>
 		<relationship name="mixer">
 			<destination>{909aec0e-9136-4dad-b36a-e97062102875}</destination>
@@ -39,7 +39,7 @@
 	</object>
 	<object class="EventAutomatableProperties" id="{08496b5a-6340-4e43-97b7-f8e1ed9d415e}">
 		<property name="maxVoices">
-			<value>62</value>
+			<value>1</value>
 		</property>
 		<relationship name="modulators">
 			<destination>{3b6530da-fd2c-4ffa-a601-d8adb324591c}</destination>

@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{ffb4ac96-7aa1-4b56-a681-650bc065ea1e}">
 		<property name="name">
-			<value>amb2D_RearRoomTone</value>
+			<value>amb2D_FrontRoomTone</value>
 		</property>
 		<property name="outputFormat">
 			<value>1</value>
@@ -34,6 +34,9 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{66c8f8fb-3ce0-4fd9-bf5e-5f18d8a45046}</destination>
+		</relationship>
+		<relationship name="banks">
+			<destination>{03d7dfc5-ee51-4fa8-9c6f-2504883a4c5a}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{ffa97a45-b53a-4e7a-9224-721ff556e758}">

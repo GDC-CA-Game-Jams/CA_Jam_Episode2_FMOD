@@ -30,10 +30,10 @@
 	<object class="MixerBusPanner" id="{75d5f2ab-3955-418c-9385-af6d212fa62c}" />
 	<object class="SFXReverbEffect" id="{e9af373d-83f1-4394-bfff-bc2bda1bfd92}">
 		<property name="decayTime">
-			<value>260</value>
+			<value>350</value>
 		</property>
 		<property name="diffusion">
-			<value>0</value>
+			<value>40</value>
 		</property>
 		<property name="earlyLateMix">
 			<value>17</value>
