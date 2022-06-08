@@ -5,6 +5,9 @@
 			<value>For main room
 </value>
 		</property>
+		<property name="volume">
+			<value>-80</value>
+		</property>
 		<property name="overridingInputFormat">
 			<value>2</value>
 		</property>
