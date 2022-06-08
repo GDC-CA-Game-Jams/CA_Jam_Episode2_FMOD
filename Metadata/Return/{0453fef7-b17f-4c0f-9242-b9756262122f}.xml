@@ -5,9 +5,6 @@
 			<value>For Bathroom, small storage, and utility
 </value>
 		</property>
-		<property name="volume">
-			<value>-80</value>
-		</property>
 		<property name="name">
 			<value>Reverb-Small</value>
 		</property>

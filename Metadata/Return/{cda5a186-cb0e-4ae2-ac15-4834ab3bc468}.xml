@@ -4,9 +4,6 @@
 		<property name="note">
 			<value>For hallway, back rooms</value>
 		</property>
-		<property name="volume">
-			<value>-80</value>
-		</property>
 		<property name="name">
 			<value>Reverb-Back</value>
 		</property>
