@@ -37,13 +37,13 @@
 	<object class="Timeline" id="{d9eff282-089f-47fd-a1c6-cbedc8782c68}" />
 	<object class="SandboxListener" id="{eab709a5-44fa-47ce-b4c2-d58f334798f8}">
 		<property name="positionX">
-			<value>15.849967</value>
+			<value>38.1945419</value>
 		</property>
 		<property name="positionZ">
-			<value>-19.6688709</value>
+			<value>-4.5367856</value>
 		</property>
 		<property name="rotationY">
-			<value>90.2933578</value>
+			<value>134.375793</value>
 		</property>
 	</object>
 	<object class="SandboxEmitter" id="{24af583d-4fa3-4b60-961e-f01ddaa6c079}">
@@ -167,6 +167,9 @@
 		<property name="rotationY">
 			<value>-156.595596</value>
 		</property>
+		<relationship name="sandboxParameters">
+			<destination>{893e7871-8dfe-4891-a9ed-80e250a69c1a}</destination>
+		</relationship>
 		<relationship name="event">
 			<destination>{faf1ef52-f4f4-4147-a574-b6df9adeebd5}</destination>
 		</relationship>
@@ -195,13 +198,13 @@
 	</object>
 	<object class="SandboxEmitter" id="{3ddaaf80-a0e8-4f24-b5b2-671074651e78}">
 		<property name="positionX">
-			<value>-0.637484908</value>
+			<value>4.91251516</value>
 		</property>
 		<property name="positionZ">
-			<value>1.53900325</value>
+			<value>4.16400337</value>
 		</property>
 		<property name="rotationY">
-			<value>-74.5138779</value>
+			<value>-1.33236642e-06</value>
 		</property>
 		<relationship name="event">
 			<destination>{51bfe3be-c2f5-43e7-b726-1660019cfdaa}</destination>
@@ -224,6 +227,14 @@
 		</property>
 		<relationship name="parameter">
 			<destination>{17974c0b-17a5-4e3f-bf0c-451c774b946b}</destination>
+		</relationship>
+	</object>
+	<object class="SandboxParameter" id="{893e7871-8dfe-4891-a9ed-80e250a69c1a}">
+		<property name="parameterValue">
+			<value>2</value>
+		</property>
+		<relationship name="parameter">
+			<destination>{f7e0b2dd-0ff6-429a-b73e-5d2a855f3a70}</destination>
 		</relationship>
 	</object>
 </objects>
