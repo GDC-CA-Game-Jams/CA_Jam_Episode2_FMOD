@@ -5,7 +5,7 @@
 			<value>Obj_Freezer</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a166773b-257a-4d23-be9a-4a98521785a3}</destination>
@@ -141,7 +141,9 @@
 	<object class="MixerBusEffectChain" id="{7e39131f-8b57-497c-91f2-28eaadd15774}">
 		<relationship name="effects">
 			<destination>{d49b0fb2-2cc8-4453-be75-430faa45f7d8}</destination>
-			<destination>{0147ba54-8e99-4358-b824-226e1c05aea7}</destination>
+			<destination>{e7fef42d-cee9-4b3a-b3a4-7b47ec6b2dac}</destination>
+			<destination>{4ed371e5-05fc-4cb1-93d4-65244a4a3973}</destination>
+			<destination>{48b1d486-a282-4924-9ae2-a10f80ee6f6c}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{e5f5604c-d3e7-455e-a79a-db5ebada0fe2}" />
@@ -153,6 +155,38 @@
 	</object>
 	<object class="MixerBusPanner" id="{2ff50e97-d65d-40d5-8827-c12088623b8f}" />
 	<object class="MixerBusFader" id="{d49b0fb2-2cc8-4453-be75-430faa45f7d8}" />
-	<object class="SpatialiserEffect" id="{0147ba54-8e99-4358-b824-226e1c05aea7}" />
+	<object class="MixerSend" id="{e7fef42d-cee9-4b3a-b3a4-7b47ec6b2dac}">
+		<property name="level">
+			<value>-19</value>
+		</property>
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{f5b42ba7-1eb8-4981-a418-779a83fa8f82}</destination>
+		</relationship>
+	</object>
+	<object class="MixerSend" id="{4ed371e5-05fc-4cb1-93d4-65244a4a3973}">
+		<property name="level">
+			<value>-13</value>
+		</property>
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{cda5a186-cb0e-4ae2-ac15-4834ab3bc468}</destination>
+		</relationship>
+	</object>
+	<object class="MixerSend" id="{48b1d486-a282-4924-9ae2-a10f80ee6f6c}">
+		<property name="level">
+			<value>-15</value>
+		</property>
+		<property name="inputFormat">
+			<value>1</value>
+		</property>
+		<relationship name="mixerReturn">
+			<destination>{0453fef7-b17f-4c0f-9242-b9756262122f}</destination>
+		</relationship>
+	</object>
 	<object class="MixerBusFader" id="{3ad16b03-fa6f-4273-a118-cb391ee0c2e8}" />
 </objects>
