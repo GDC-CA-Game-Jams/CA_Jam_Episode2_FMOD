@@ -5,7 +5,7 @@
 			<value>Obj_Mushroom</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a166773b-257a-4d23-be9a-4a98521785a3}</destination>
@@ -62,6 +62,10 @@
 	<object class="EventAutomatableProperties" id="{30eb3b33-2d58-47af-a1b4-571c0e9e42a2}" />
 	<object class="MarkerTrack" id="{68f0a99f-f474-410a-8270-2c1f7dbd524f}" />
 	<object class="GroupTrack" id="{f01c7586-5da2-411d-96ae-a04040d5bcc5}">
+		<relationship name="modules">
+			<destination>{c43994ba-1692-41b8-ac24-876f474c9d0c}</destination>
+			<destination>{bc45a180-cff2-44f2-a493-70b183456992}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{ff75779f-ee57-4e86-949e-ee2cad6c8d13}</destination>
 		</relationship>
@@ -72,6 +76,10 @@
 		</property>
 	</object>
 	<object class="ParameterProxy" id="{0a54decc-c3c7-44ff-b3a2-3e75bdf56e7b}">
+		<relationship name="modules">
+			<destination>{c43994ba-1692-41b8-ac24-876f474c9d0c}</destination>
+			<destination>{bc45a180-cff2-44f2-a493-70b183456992}</destination>
+		</relationship>
 		<relationship name="preset">
 			<destination>{f7e0b2dd-0ff6-429a-b73e-5d2a855f3a70}</destination>
 		</relationship>
@@ -93,6 +101,19 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{23029d3f-1757-40f3-8086-b702ec538a2e}" />
+	<object class="SingleSound" id="{c43994ba-1692-41b8-ac24-876f474c9d0c}">
+		<property name="start">
+			<value>2</value>
+		</property>
+		<relationship name="audioFile">
+			<destination>{fcfd821a-7bf0-481b-9818-15149c39b555}</destination>
+		</relationship>
+	</object>
+	<object class="SingleSound" id="{bc45a180-cff2-44f2-a493-70b183456992}">
+		<relationship name="audioFile">
+			<destination>{5ac93932-6a81-4c2f-a825-63df72aab985}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{ff75779f-ee57-4e86-949e-ee2cad6c8d13}">
 		<property name="name">
 			<value>Audio 1</value>

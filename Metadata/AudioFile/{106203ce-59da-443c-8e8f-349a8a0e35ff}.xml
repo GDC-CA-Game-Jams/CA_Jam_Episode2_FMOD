@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.02.00">
+	<object class="AudioFile" id="{106203ce-59da-443c-8e8f-349a8a0e35ff}">
+		<property name="assetPath">
+			<value>SFX/Objects/as_obj_ColdStorageSuccess.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>1.7791041666666667</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{f28a448e-210f-4343-bfe1-39a1756b5fe2}</destination>
+		</relationship>
+	</object>
+</objects>

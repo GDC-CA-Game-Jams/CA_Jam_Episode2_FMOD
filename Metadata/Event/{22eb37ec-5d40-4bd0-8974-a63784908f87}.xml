@@ -1,11 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{22eb37ec-5d40-4bd0-8974-a63784908f87}">
+		<property name="note">
+			<value>Dun
+</value>
+		</property>
 		<property name="name">
 			<value>Obj_Sleep</value>
 		</property>
 		<property name="outputFormat">
-			<value>0</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{a166773b-257a-4d23-be9a-4a98521785a3}</destination>
@@ -62,6 +66,9 @@
 	<object class="EventAutomatableProperties" id="{9a89d73b-11bf-4a1a-a106-3e0140981430}" />
 	<object class="MarkerTrack" id="{6b6924c5-ac51-4d9b-8269-67ed1e080b8e}" />
 	<object class="GroupTrack" id="{3e188999-e2d3-4586-bf72-472cac99c8f9}">
+		<relationship name="modules">
+			<destination>{24f1c1a6-9ceb-4db3-9632-9b153086af1b}</destination>
+		</relationship>
 		<relationship name="mixerGroup">
 			<destination>{73d7254e-6a06-4f09-a726-b9e3ad348f84}</destination>
 		</relationship>
@@ -72,6 +79,9 @@
 		</property>
 	</object>
 	<object class="ParameterProxy" id="{7397b49e-a4bc-4e46-bae2-48a6f135ba6b}">
+		<relationship name="modules">
+			<destination>{24f1c1a6-9ceb-4db3-9632-9b153086af1b}</destination>
+		</relationship>
 		<relationship name="preset">
 			<destination>{f7e0b2dd-0ff6-429a-b73e-5d2a855f3a70}</destination>
 		</relationship>
@@ -93,6 +103,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{ace95dd9-0b25-444e-aa51-989e39fffbca}" />
+	<object class="SingleSound" id="{24f1c1a6-9ceb-4db3-9632-9b153086af1b}">
+		<relationship name="audioFile">
+			<destination>{92161fea-68fa-4629-a14c-da5a7a4e8b8f}</destination>
+		</relationship>
+	</object>
 	<object class="EventMixerGroup" id="{73d7254e-6a06-4f09-a726-b9e3ad348f84}">
 		<property name="name">
 			<value>Audio 1</value>
