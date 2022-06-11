@@ -279,7 +279,7 @@
 	</object>
 	<object class="AutomationPoint" id="{0e554aaa-9871-457a-ad3f-0f013ec2cb12}">
 		<property name="position">
-			<value>1</value>
+			<value>100</value>
 		</property>
 		<property name="value">
 			<value>-8</value>
@@ -287,7 +287,7 @@
 	</object>
 	<object class="AutomationPoint" id="{3d06644e-ec3f-4098-ace8-965b46b267e0}">
 		<property name="position">
-			<value>0.56781484153111295</value>
+			<value>56.781484153111293</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -363,7 +363,7 @@
 	</object>
 	<object class="AutomationPoint" id="{71ebe847-ec43-4cfe-a938-178f3459f891}">
 		<property name="position">
-			<value>0.31</value>
+			<value>31</value>
 		</property>
 		<property name="value">
 			<value>21999.9883</value>
@@ -374,7 +374,7 @@
 	</object>
 	<object class="AutomationPoint" id="{4ed25129-1b25-429c-b5ad-efe6c50b116b}">
 		<property name="position">
-			<value>0.65564860426929394</value>
+			<value>65.5648604269294</value>
 		</property>
 		<property name="value">
 			<value>1100</value>
@@ -385,7 +385,7 @@
 	</object>
 	<object class="AutomationPoint" id="{ed2c3366-0eae-455d-96d9-7e43a7766c72}">
 		<property name="position">
-			<value>0.91625615763546797</value>
+			<value>91.62561576354679</value>
 		</property>
 		<property name="value">
 			<value>180</value>
@@ -393,7 +393,7 @@
 	</object>
 	<object class="AutomationPoint" id="{ec568579-ac9b-45a5-b6e5-fed12ad1a929}">
 		<property name="position">
-			<value>0.028735632183908066</value>
+			<value>2.8735632183908066</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -401,7 +401,7 @@
 	</object>
 	<object class="AutomationPoint" id="{09227bbe-e838-4d87-a5e3-01b808d9a03a}">
 		<property name="position">
-			<value>1</value>
+			<value>100</value>
 		</property>
 		<property name="value">
 			<value>98</value>
@@ -409,7 +409,7 @@
 	</object>
 	<object class="AutomationPoint" id="{bb5e6279-9861-4466-91ff-601aeb15699b}">
 		<property name="position">
-			<value>0.17999999999999999</value>
+			<value>18</value>
 		</property>
 		<property name="value">
 			<value>0</value>
@@ -420,7 +420,7 @@
 	</object>
 	<object class="AutomationPoint" id="{561956e4-280a-4737-a7d2-099a5462d67d}">
 		<property name="position">
-			<value>0.9277503990853293</value>
+			<value>92.775039908532932</value>
 		</property>
 		<property name="value">
 			<value>75.5512238</value>
@@ -428,7 +428,7 @@
 	</object>
 	<object class="AutomationPoint" id="{a27e249a-cf23-490e-928e-ec30deabb35b}">
 		<property name="position">
-			<value>1</value>
+			<value>100</value>
 		</property>
 		<property name="value">
 			<value>0.949999988</value>
@@ -436,7 +436,7 @@
 	</object>
 	<object class="AutomationPoint" id="{5c434b0a-5b1f-4605-a6c1-afc32632dfdb}">
 		<property name="position">
-			<value>0.040000000000000001</value>
+			<value>4</value>
 		</property>
 		<property name="value">
 			<value>0.00999999978</value>
@@ -447,7 +447,7 @@
 	</object>
 	<object class="AutomationPoint" id="{ac3db2cb-fc9d-4b3c-b7f1-67d8183dcc1d}">
 		<property name="position">
-			<value>0.45000000000000001</value>
+			<value>45</value>
 		</property>
 		<property name="value">
 			<value>0.5</value>
@@ -458,7 +458,7 @@
 	</object>
 	<object class="AutomationPoint" id="{aa3a2410-7207-4281-a749-582abbe5dd3f}">
 		<property name="position">
-			<value>0.039408866995073892</value>
+			<value>3.9408866995073892</value>
 		</property>
 		<property name="value">
 			<value>0.0799999982</value>
@@ -466,7 +466,7 @@
 	</object>
 	<object class="AutomationPoint" id="{53eee2ee-79e8-4bf2-aacf-08ae109883b9}">
 		<property name="position">
-			<value>0.84072249589490966</value>
+			<value>84.072249589490966</value>
 		</property>
 		<property name="value">
 			<value>0.0799999982</value>
@@ -474,7 +474,7 @@
 	</object>
 	<object class="AutomationPoint" id="{096d5aed-7f1b-4db3-83a0-9b652744695e}">
 		<property name="position">
-			<value>0.98999999999999999</value>
+			<value>99</value>
 		</property>
 		<property name="value">
 			<value>0.400000006</value>
