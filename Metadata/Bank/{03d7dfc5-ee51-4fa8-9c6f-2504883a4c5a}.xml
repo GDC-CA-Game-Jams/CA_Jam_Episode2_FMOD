@@ -10,19 +10,5 @@
 		<relationship name="folder">
 			<destination>{9001e1fa-e90d-4fb7-a4e5-1db6a81214e2}</destination>
 		</relationship>
-		<relationship name="audioTable">
-			<destination>{41d6ebc6-d95d-4eaa-bbce-88c09f88426a}</destination>
-		</relationship>
-	</object>
-	<object class="AudioTable" id="{41d6ebc6-d95d-4eaa-bbce-88c09f88426a}">
-		<property name="name">
-			<value>Dialog Audio Table</value>
-		</property>
-		<property name="sourceDirectory">
-			<value>Assets/Dialog</value>
-		</property>
-		<property name="includeSubDirectories">
-			<value>true</value>
-		</property>
 	</object>
 </objects>

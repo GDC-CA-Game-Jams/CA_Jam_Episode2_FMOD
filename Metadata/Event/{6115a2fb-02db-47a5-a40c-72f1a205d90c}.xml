@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.02.00">
 	<object class="Event" id="{6115a2fb-02db-47a5-a40c-72f1a205d90c}">
 		<property name="name">
-			<value>Narrator_Master_Event</value>
+			<value>Narrator_Only_Event</value>
 		</property>
 		<property name="outputFormat">
 			<value>0</value>
@@ -33,9 +33,6 @@
 		</relationship>
 		<relationship name="parameters">
 			<destination>{95853bc5-b885-42d1-9774-2ab2312d2e93}</destination>
-		</relationship>
-		<relationship name="banks">
-			<destination>{03d7dfc5-ee51-4fa8-9c6f-2504883a4c5a}</destination>
 		</relationship>
 	</object>
 	<object class="EventMixer" id="{43e91aae-1dde-4fdd-8627-8f45ddf10c22}">
@@ -132,11 +129,7 @@
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{0886f92d-3cba-4054-bd1e-1c3c53dfeacb}" />
-	<object class="ProgrammerSound" id="{d842c667-55b1-48f4-9af4-a0a26a02a38f}">
-		<relationship name="placeholder">
-			<destination>{41d6ebc6-d95d-4eaa-bbce-88c09f88426a}</destination>
-		</relationship>
-	</object>
+	<object class="ProgrammerSound" id="{d842c667-55b1-48f4-9af4-a0a26a02a38f}" />
 	<object class="MixerBusFader" id="{5ddc28d4-b9a8-4f4b-a43a-eaa4b6a0dcae}" />
 	<object class="MixerBusEffectChain" id="{f91fb27f-2de5-4f47-b8ea-19e91fb6a241}">
 		<relationship name="effects">
