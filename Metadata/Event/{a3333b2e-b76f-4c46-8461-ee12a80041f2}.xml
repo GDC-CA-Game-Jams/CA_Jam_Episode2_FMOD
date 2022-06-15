@@ -5,7 +5,7 @@
 			<value>End_Survival_Event</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{1a08ecce-69e9-4692-ad7f-24d2b7b7de56}</destination>
@@ -302,7 +302,6 @@
 	<object class="MixerBusEffectChain" id="{22127e22-10f7-4989-8c6e-5d67d49b6532}">
 		<relationship name="effects">
 			<destination>{5c69b98c-e1ff-4679-87db-05033656a137}</destination>
-			<destination>{fad7d311-a174-4db3-9ee9-7a95b9a3538f}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{dd56d328-7dff-4336-a6fe-32922f7b0535}" />
@@ -341,5 +340,4 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{5c69b98c-e1ff-4679-87db-05033656a137}" />
-	<object class="SpatialiserEffect" id="{fad7d311-a174-4db3-9ee9-7a95b9a3538f}" />
 </objects>

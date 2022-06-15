@@ -5,7 +5,7 @@
 			<value>Day3_Start_Event</value>
 		</property>
 		<property name="outputFormat">
-			<value>2</value>
+			<value>1</value>
 		</property>
 		<relationship name="folder">
 			<destination>{1a08ecce-69e9-4692-ad7f-24d2b7b7de56}</destination>
@@ -338,7 +338,6 @@
 	<object class="MixerBusEffectChain" id="{ecbf29a2-3b80-4251-81fa-406be3fd2ff4}">
 		<relationship name="effects">
 			<destination>{f0fe8aae-79e7-4faf-acfa-c21782dd1cf9}</destination>
-			<destination>{38ae380e-88ad-4d02-8898-8e5a59a9de7b}</destination>
 		</relationship>
 	</object>
 	<object class="MixerBusPanner" id="{c03eee3c-45ba-4a72-a8f8-74c644761213}" />
@@ -358,7 +357,6 @@
 		</property>
 	</object>
 	<object class="MixerBusFader" id="{f0fe8aae-79e7-4faf-acfa-c21782dd1cf9}" />
-	<object class="SpatialiserEffect" id="{38ae380e-88ad-4d02-8898-8e5a59a9de7b}" />
 	<object class="GainEffect" id="{0563ccd9-5cc3-42ec-ba37-b468758462fe}">
 		<property name="gain">
 			<value>10</value>
