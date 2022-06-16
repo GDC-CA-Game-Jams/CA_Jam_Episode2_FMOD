@@ -272,7 +272,7 @@
 	</object>
 	<object class="TransitionMarker" id="{48d258e5-14f7-49c6-ba96-1d63536371a9}">
 		<property name="position">
-			<value>39.246305418719217</value>
+			<value>38</value>
 		</property>
 		<relationship name="timeline">
 			<destination>{0d5c2bd1-711b-49ee-a9c6-529757c652c1}</destination>
